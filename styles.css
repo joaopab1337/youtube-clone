@@ -116,9 +116,44 @@ h1{
 
 .rec-video-title {
     font-size: 18px;
+    margin-left: 5px;
 }
 
 .rec-video-views {
     font-size: 12px;
     display: block;
+    margin-left: 8px;
+}
+.name-user{
+    display: flex;
+}
+
+.name-user span{
+    margin-left: 10px;
+}
+
+.video-1{
+    width: 200px;
+    height: 116px;
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2015%2F08%2Fturbo-kid.jpg&w=400&c=sc&poi=face&q=85');
+    background-size: cover;
+}
+.video-2{
+    width: 200px;
+    height: 116px;
+    background-image: url('https://www.foxmovies.com/s3/dev-temp/en-US/__5aa069e8c19c2.jpg');
+    background-size: cover;
+}
+.video-3{
+    width: 200px;
+    height: 116px;
+    background-image: url('https://www.out.com/sites/out.com/files/2018/08/18/titanic-1997.jpg');
+    background-size: cover;
+}
+
+.video-4{
+    width: 200px;
+    height: 116px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qLqAasZMA80i_JYajadaUzuvBYErR3Oxp_QkvHf31erZORaz');
+    background-size: cover;
 }
