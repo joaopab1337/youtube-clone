@@ -57,7 +57,7 @@ body {
 
 .main{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 h1{
     font-size: 22px;
@@ -71,4 +71,54 @@ h1{
 .menu-below-video{
     display: flex;
     justify-content: space-between;
+}
+
+.section-sidebar li {
+    list-style: none;
+}
+
+.subscribe-button {
+    padding: 16px 32px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: 0;
+}
+
+.menu-avatar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-avatar div {
+    align-self: flex-end;
+}
+
+.video-action {
+    color: #8f9090;
+    font-size:30px;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+.section-video-avatar {
+    padding: 16px;
+}
+
+.rec-video {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.rec-video-info {
+}
+
+.rec-video-title {
+    font-size: 18px;
+}
+
+.rec-video-views {
+    font-size: 12px;
+    display: block;
 }
