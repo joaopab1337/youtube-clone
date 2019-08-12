@@ -1,10 +1,53 @@
-.navbar img {
+.navbar {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+#logo {
     width: 100px;
     height: 36px;
-    float: left;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-input {
+    width: 600px;
+    height: 18px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.search-button {
+    width: 64px;
+    background-color: #f8f8f8;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+}
+
+.navbar-avatar {
+    width: 36px;
+    height: 36px;
+    background-image: url('http://www.dumpaday.com/wp-content/uploads/2018/09/photos-21-3.jpg');
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.navbar-items {
+    color: #606060;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 body {
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
 }
 
 .like-button{

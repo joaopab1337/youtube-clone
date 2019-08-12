@@ -10,12 +10,21 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png">
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png">
 
-        <input type="text" placeholder="Search">
-        <button type="button">Search icon</button>
+        <div class="search-container">
+            <input class="search-input" type="text" placeholder="Search">
+            <button class="search-button" type="button"><i class="material-icons">search</i></button>
+        </div>
 
-        <img src="#" alt="Avatar">
+        <div class="navbar-items">
+            <a><i class='material-icons'>apps</i></a>
+            <a><i class='material-icons'>message</i></a>
+            <a><i class='material-icons'>video_call</i></a>
+            <div class="navbar-avatar"></div>
+        </div>
+
+        <!-- <img id="navbar-avatar" src="http://www.dumpaday.com/wp-content/uploads/2018/09/photos-21-3.jpg" alt="Avatar"> -->
     </div>
     <div class="main">
         <iframe width="667" height="417" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -32,6 +41,30 @@
         </div>
 
 
+    </div>
+    <div class="sidebar">
+        <ul class="recommended-videos">
+            <li class="rec-video">
+                <iframe width="150" height="150" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="rec-video-title">Video title</span>
+                <span class="rec-video-views">457 views</span>
+            </li>
+            <li class="rec-video">
+                <iframe width="150" height="150" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="rec-video-title">Video title</span>
+                <span class="rec-video-views">457 views</span>
+            </li>
+            <li class="rec-video">
+                <iframe width="150" height="150" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="rec-video-title">Video title</span>
+                <span class="rec-video-views">457 views</span>
+            </li>
+            <li class="rec-video">
+                <iframe width="150" height="150" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span class="rec-video-title">Video title</span>
+                <span class="rec-video-views">457 views</span>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
