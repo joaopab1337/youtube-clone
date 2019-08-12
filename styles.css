@@ -86,13 +86,9 @@ h1{
     top: 0;
 }
 
-.menu-avatar {
+.video-info {
     display: flex;
     justify-content: space-between;
-}
-
-.menu-avatar div {
-    align-self: flex-end;
 }
 
 .video-action {
@@ -124,12 +120,14 @@ h1{
     display: block;
     margin-left: 8px;
 }
-.name-user{
-    display: flex;
+
+.video-info span, p{
+    margin-left: 10px;
 }
 
-.name-user span{
-    margin-left: 10px;
+.video-info p{
+    width: 600px;
+    font-size: 14px;
 }
 
 .video-1{
@@ -156,4 +154,49 @@ h1{
     height: 116px;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qLqAasZMA80i_JYajadaUzuvBYErR3Oxp_QkvHf31erZORaz');
     background-size: cover;
+}
+
+.info {
+    align-self: flex-start;
+    display: block;
+}
+
+.user-name {
+    font-weight: 500;
+}
+
+.timestamp {
+    color: white;
+    position: relative;
+    left: 80%;
+    top: 80%;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 14px;
+}
+
+.section-sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.section-sidebar {
+    height: 100%;
+    margin: 0;
+    padding: 16px;
+    background-color: white;
+}
+
+.playlist-next {
+    margin-top: 5px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo i {
+    margin-right: 8px;
 }

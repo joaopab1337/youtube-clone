@@ -11,7 +11,11 @@
 </head>
 <body>
     <div class="navbar">
-        <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png">
+
+        <div class="nav-logo">
+            <i class="material-icons">menu</i>
+            <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png">
+        </div>
 
         <div class="search-container">
             <input class="search-input" type="text" placeholder="Search">
@@ -28,7 +32,7 @@
     <div class="main">
         <div class="section-video-avatar">
             <div class="video">
-                <iframe width="667" height="417" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1024" height="640" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h1>Contributing to Open Source Part I: The Easy Way</h1>
                 <div class="menu-below-video">
                     <span class="text-views">500,000 views</span>
@@ -38,12 +42,13 @@
                             <button class="video-action" type="button"><i class="material-icons">share</i></button>
                     </div>
                 </div>
-                <div class="menu-avatar">
-                    <div class="name-user">
+                <div class="video-info">
+                    <div class="video-info">
                         <img src="https://yt3.ggpht.com/a/AGF-l79PHE32UB5d2fnmwsiJXu3vv_fnC_SNO899VQ=s88-c-k-c0xffffffff-no-rj-mo" alt="avatar">
-                        <span>Pedro</span>
-                        <div class="text-description">
-                            <span>jjjj</span>
+                        <div class="info">
+                            <span class="user-name">Pedro</span>
+                            <br>
+                            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis doloremque itaque, illo voluptas quo vitae blanditiis nesciunt cumque libero?</p>
                         </div>
                     </div>
                     <div>
@@ -52,38 +57,57 @@
                 </div>
             </div>
         </div>
-            <div class="section-sidebar">
-                <ul class="recommended-videos">
-                    <li class="rec-video">
-                        <div class="video-1"></div>
-                        <div class="rec-video-info">
-                            <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
-                            <span class="rec-video-views">457 views</span>
-                        </div>
-                    </li>
-                    <li class="rec-video">
-                        <div class="video-2"></div>
-                        <div class="rec-video-info">
-                            <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
-                            <span class="rec-video-views">457 views</span>
-                        </div>
-                    </li>
-                    <li class="rec-video">
-                        <div class="video-3"></div>
-                        <div class="rec-video-info">
-                            <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
-                            <span class="rec-video-views">457 views</span>
-                        </div>
-                    </li>
-                    <li class="rec-video">
-                        <div class="video-4"></div>
-                        <div class="rec-video-info">
-                            <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
-                            <span class="rec-video-views">457 views</span>
-                        </div>
-                    </li>
-                </ul>
+        <div class="section-sidebar">
+            <span>Up next</span>
+            <div class="playlist-next rec-video">
+                <div class="video-1">
+                    <span class="timestamp">4:15</span>
+                </div>
+                <div class="rec-video-info">
+                    <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                    <span class="rec-video-views">457 views</span>
+                </div>
             </div>
+            <hr>
+            <ul class="recommended-videos">
+                <li class="rec-video">
+                    <div class="video-1">
+                        <span class="timestamp">4:15</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">457 views</span>
+                    </div>
+                </li>
+                <li class="rec-video">
+                    <div class="video-2">
+                        <span class="timestamp">3:30</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">457 views</span>
+                    </div>
+                </li>
+                <li class="rec-video">
+                    <div class="video-3">
+                        <span class="timestamp">3:20</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">457 views</span>
+                    </div>
+                </li>
+                <li class="rec-video">
+                    <div class="video-4">
+                        <span class="timestamp">7:30</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">457 views</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
