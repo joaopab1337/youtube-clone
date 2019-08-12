@@ -48,8 +48,27 @@ body {
     background-color: #f1f1f1;
     padding: 0;
     margin: 0;
+    font-family: ‘Roboto’, sans-serif;
 }
 
 .like-button{
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAY1BMVEX///8AAADGxsaioqKDg4Ozs7P6+vrl5eVycnJCQkIPDw/CwsL09PTR0dHo6Ojr6+vd3d1oaGglJSUZGRkgICA3NzfX19eQkJCpqakwMDC7u7tJSUliYmKcnJxSUlJ9fX1aWlpASwpVAAAFAklEQVRogeWb2YKqMAxABdkpsskiCvj/X3lHm9RCC6JAfLh5cqrDsW2SZqmHwzpp0tw4d1ZzWvmcjyW+Gih+SEpmL/KfXCNCdGUM5UhGjs8jtFFRoZsx2TBqIrTHcZdcYps06IzT2MEJU0RfGAmaz7ZwHq9N3PeWghwHT9b9iT4ksAb8m+wsJ46+wZ8m4W7HQ/QB9tuiQ99xhSNQNAL04TzcXMb/zmMytCHMCVa83J8MC5wLtEWmZ+DMejEA6GZ3sgPG9DoqKyp0Dev9GoFZ7x8zXBTHSbXXoGSGdFxQaTgo2e014vg0dh2rHhuGsp3JqM2y1yz50HVnMis4Rw6IWj60d3xmc8xZ3tcbjW35Y0/2d3xzlx4k+5JDUDIZA6GCvy/5AFlHKo/1fGznSAHdiZzpOIU6toPcOaWTI0CMUfZ1KGDAwyMKDN3blYxWNAzCzhSmlcCkbXkQV2Lf5AOTnMFgrdH5zQXnN0wqQfP2zbBhp4PhKHyfXUsqpnbSsBT5xD9tI+DIRqdyrfr0zcXWqbfwonsWFRgEg9dRKuurx8nWAkGnEnXq7G1bQW8yNl+2v5bB6aQsLHwlKTw9sCSs28qyrKpqbdNdSwY9Vs/kSFJwxzxWN1AJSQqrWVHqcA2tN3mhveiYKkxJum8TEwjxdadTMgeUxf8ukkDtvqlvObO8gVhfLDtutDaxyZazu4/ZGITq0+d2OfrjmBVPjQk3ray471V1E5pRVEZmaLdpIL33macXRWB/Yrlc8eCiryNNrBLbd/GRTxQdD42ZDJZVflD0xzkvXqJH+mDJxWrPRtkOe6tA9wWPGYgrCt6rKzTg5RanKMJDrT+OwU6WGpi92Zz/NoVPO1uWozBc7k2ie4ivhuFjdLS8kfRtyERHaZs4V0U7R6VxBFKBM9B47m+kGNuoW0yAX7L6sOcgvnu+8DnlG6yxWcYOZ5DIR0/BPPYhG6XNsK3CSm/vyfdtyGinOBFzFsplo0IzRhvoSHHSXuSOpBSt2o2aVzjrC38egwhDa7e6KtUKwVoPlLJBvTv9h6EAbOvf/ViwB8g9KWz1hPXUI5VcK7iMzXu0PbMbX4knmQwxGkL2Z7OZGO10zwc+q7jEaKwCmP8X2ns5NGI0tC5ylx4NuEJ6TYWGTNmjR+OBFJGj8ejixS9KtKg+8MCaEo2hAhS/KNGQ7mHyQYluJcsiRkNVEYN6Ug0HL1r/AA2Fkf4H6FLyZcRoaPfe/i801nF/gK4HMFI0VJAaejQeXIwcjc5sdB2RAC2SPaxFkaFP2BDB04MMXYpyp8iYidCicyJd1yFCiyqV1J4jRt+k2ggRmil1Qjo1g+qoXHWkQncj9aZH/2DWYFzZD/Yaa2Ry8Y8IDYnH4I4SDRrNetDFIEHj3c980PejQAsvOvx9BERqExeXIBVfVSONRYE5GFaYIT7VN/twoY7uKf6yMO1Wr+b2uF8Fp1luOopE0nWHS5f2lW2WMWPO0m/hxLXcYlA2FdvxRuaPZKoXX1xvXl9VbW0/WtRlWSau6ybJYF1Y0rTesJGk9q2ZepNjheRZluXad3Q3ejU/jtpeAn1f8pObBl+KNXXpcJa9oAv2RgJvpndiTnYWL6FbhrV19y9TXc933OvxTVMy7M+BIpn3anA5p9JsaivtLnmweCHy1F7WLBqb9eTnmJtEYdPYdt1W1eN61eOGlZXer6DcZ79LraNtzrYj/wGoDzpH9SnIUgAAAABJRU5ErkJggg==');
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text-views{
+    color: gray;
+}
+
+.menu-below-video{
+    display: flex;
+    justify-content: space-between;
 }
