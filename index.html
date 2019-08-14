@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <i class="material-icons">menu</i>
+            <img id="logo" alt="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png">
+        </div>
+
+        <div class="search-container">
+            <input class="search-input" type="text" placeholder="Search">
+            <button class="search-button" type="button"><i class="material-icons">search</i></button>
+        </div>
+
+        <div class="navbar-items">
+            <a><i class='material-icons'>apps</i></a>
+            <a><i class='material-icons'>message</i></a>
+            <a><i class='material-icons'>video_call</i></a>
+            <div class="navbar-avatar"></div>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="section-video-avatar">
+            <div class="video">
+                <iframe width="1024" height="640" src="https://www.youtube.com/embed/V74l_zS1x8E"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1>Contributing to Open Source Part I: The Easy Way</h1>
+                <div class="menu-below-video">
+                    <span class="text-views">500,000 views</span>
+                    <div class="menu-container">
+                            <button class="video-action" type="button"><i class="material-icons" >thumb_up</i></button>
+                            <button class="video-action" type="button"><i class="material-icons">thumb_down</i></button>
+                            <button class="video-action" type="button"><i class="material-icons">share</i></button>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="video-info">
+                        <img src="https://yt3.ggpht.com/a/AGF-l79PHE32UB5d2fnmwsiJXu3vv_fnC_SNO899VQ=s88-c-k-c0xffffffff-no-rj-mo" alt="avatar">
+                        <div class="info">
+                            <span class="user-name">Pedro</span>
+                            <br>
+                            <p class="video-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis doloremque itaque, illo voluptas quo vitae blanditiis nesciunt cumque libero?</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="subscribe-button" type="button">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="section-sidebar">
+            <span>Up next</span>
+            <div class="playlist-next rec-video">
+                <div class="video-1">
+                    <span class="timestamp">4:15</span>
+                </div>
+                <div class="rec-video-info">
+                    <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                    <span class="rec-video-views">457 views</span>
+                </div>
+            </div>
+            <hr>
+            <ul class="recommended-videos">
+                <li class="rec-video">
+                    <div class="video-1">
+                        <span class="timestamp">4:15</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">457 views</span>
+                    </div>
+                </li>
+                <li class="rec-video">
+                    <div class="video-2">
+                        <span class="timestamp">3:30</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">1M views</span>
+                    </div>
+                </li>
+                <li class="rec-video">
+                    <div class="video-3">
+                        <span class="timestamp">3:20</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">44,024 views</span>
+                    </div>
+                </li>
+                <li class="rec-video">
+                    <div class="video-4">
+                        <span class="timestamp">7:30</span>
+                    </div>
+                    <div class="rec-video-info">
+                        <span class="rec-video-title">Lorem Ipsum Dolor Siamet</span>
+                        <span class="rec-video-views">3,102 views</span>
+                    </div>
+                </li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>
